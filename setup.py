@@ -53,7 +53,7 @@ setup(
     python_requires='>=3.8',
     author='Petrix',
     description='Discord.py self-bot fork',
-    long_description=open('README.md', 'r', encoding='utf-8').read(),
+    long_description=open('README.rst', 'r', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/petrixgxd/discord.py-self',
 )
