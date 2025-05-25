@@ -44,8 +44,8 @@ def derive_version() -> str:
 setup(
     name='discord.py-self',
     version=derive_version(),
-    packages=find_packages(),
-    package_dir={'': '.'},
+    packages=['discordself'],
+    package_dir={'discordself': 'discordself'},
     install_requires=[
         'aiohttp>=3.7.4',
         'typing-extensions>=4.3.0',
